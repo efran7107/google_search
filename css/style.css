@@ -1,5 +1,21 @@
-.top-class {
+.top-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 1vw;
+}
+
+.top-nav .image img {
+    max-width: 5vw;
+}
+
+.top-nav .profile img {
+    max-width: 2vw;
+}
+
+.top-nav .search {
+    width: 20vw;
+    height: 2vw;
+    border-radius: 30px;
+    padding: 0 20px;
 }
