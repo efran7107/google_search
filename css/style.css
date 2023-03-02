@@ -1,3 +1,4 @@
+header{ margin-top: var(--size-10); }
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -14,8 +15,8 @@
 }
 
 .top-nav .search {
-    width: 20vw;
-    height: 2vw;
+    width: 600px;
+    height: var(--size-30);
     border-radius: 30px;
     padding: 0 20px;
 }
