@@ -1,4 +1,5 @@
 header{ margin-top: var(--size-10); }
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -7,14 +8,21 @@ header{ margin-top: var(--size-10); }
 }
 
 .top-nav .image img {
-    max-width: 5vw;
+    max-width: var(--size-150);
+    margin-right: var(--size-100);
+}
+
+.top-nav .profile span {
+    font-size: var(--size-40);
+    vertical-align: middle;
+    margin-right: var(--size-20);
 }
 
 .top-nav .profile img {
-    max-width: 2vw;
+    max-width: var(--size-50);
 }
 
-.top-nav .search {
+.top-nav .image .search {
     width: 600px;
     height: var(--size-30);
     border-radius: 30px;
