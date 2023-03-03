@@ -27,4 +27,20 @@ header{ margin-top: var(--size-10); }
     height: var(--size-30);
     border-radius: 30px;
     padding: 0 20px;
+    border-width: thin;
+}
+
+.bottom-nav .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-nav .container .rt-btm-nav,
+.bottom-nav .container .lf-btm-nav {
+    display: flex;
+}
+
+.bottom-nav .container .rt-btm-nav li,
+.bottom-nav .container .lf-btm-nav li {
+    margin-right: var(--size-20);
 }
