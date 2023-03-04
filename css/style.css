@@ -33,10 +33,6 @@ header {
     border-width: thin;
 }
 
-.bottom-nav {
-    margin: var(--size-10) 0;
-}
-
 .bottom-nav .container {
     display: flex;
     justify-content: space-between;
@@ -54,6 +50,11 @@ header {
 
 .bottom-nav .container a {
     color: darkgrey;
+}
+
+.bottom-nav .container a:hover {
+    color: blue;
+    border-bottom: 5px solid blue;
 }
 
 .result-number {
