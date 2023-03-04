@@ -1,4 +1,7 @@
-header{ margin-top: var(--size-10); }
+header {
+    margin-top: var(--size-10);
+    border-bottom: 1px solid lightgray;
+}
 
 .top-nav {
     display: flex;
@@ -30,9 +33,13 @@ header{ margin-top: var(--size-10); }
     border-width: thin;
 }
 
+.bottom-nav {
+    margin: var(--size-10) 0;
+}
+
 .bottom-nav .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .bottom-nav .container .rt-btm-nav,
@@ -43,4 +50,12 @@ header{ margin-top: var(--size-10); }
 .bottom-nav .container .rt-btm-nav li,
 .bottom-nav .container .lf-btm-nav li {
     margin-right: var(--size-20);
+}
+
+.bottom-nav .container a {
+    color: darkgrey;
+}
+
+.result-number {
+    margin-top: var(--size-10);
 }
