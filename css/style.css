@@ -60,3 +60,14 @@ header {
 .result-number {
     margin-top: var(--size-10);
 }
+
+.people-also-asked .container  {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.people-also-asked .container .header,
+.people-also-asked .container .other-questions{
+    padding: 0 15px;
+}
