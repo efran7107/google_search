@@ -61,6 +61,11 @@ header {
     margin-top: var(--size-10);
 }
 
+.results p,
+.results h2 {
+    margin: 0px;
+}
+
 .people-also-asked .container  {
     border: 1px solid black;
     border-radius: 10px;
