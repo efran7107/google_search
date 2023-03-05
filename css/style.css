@@ -12,7 +12,7 @@ header {
 
 .top-nav .image img {
     max-width: var(--size-150);
-    margin-right: 340px;
+    margin-right: 21.25rem;
 }
 
 .top-nav .profile span {
@@ -26,10 +26,10 @@ header {
 }
 
 .top-nav .image .search {
-    width: 600px;
+    width: 37.5rem;
     height: var(--size-30);
-    border-radius: 30px;
-    padding: 0 20px;
+    border-radius: var(--size-30);
+    padding: 0 var(--size-20);
     border-width: thin;
 }
 
@@ -54,7 +54,7 @@ header {
 
 .bottom-nav .container a:hover {
     color: blue;
-    border-bottom: 5px solid blue;
+    border-bottom: 0.3125rem solid blue;
 }
 
 .result-number {
