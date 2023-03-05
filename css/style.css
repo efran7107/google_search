@@ -61,6 +61,10 @@ header {
     margin-top: var(--size-10);
 }
 
+.results {
+    margin: var(--size-30) 0;
+}
+
 .results p,
 .results h2 {
     margin: 0px;
